@@ -7,13 +7,43 @@ body{
     font-family: Arial;
 }
 hr{
-    
     color: rgb(171,146,74);
+    margin: 20px;
 }
 .apartado{
     margin-top: 100px;
     text-align: left;
 }
+.apartadoGemas{
+    margin-top: 100px;
+    text-align: left;
+    margin-left: 20px;
+}
+.gemas{
+    margin-left: auto;
+    margin-right: auto;
+}
+.imgGemas{
+    float: left;
+}
+.tablaGemas{
+    display: table;
+}
+.fila{
+    display: table-row;
+    border: 10px solid red; 
+}
+.columna{
+    display: table-cell;
+    vertical-align: top;
+}
+.columnaParrafo{
+    display: table-cell;
+    vertical-align: top;
+    text-align: left;
+    padding-top: 30px;
+}
+
 header{
     background-color: rgb(171,146,74, .9);
     padding: 5px;
@@ -23,8 +53,12 @@ header{
     left: 0;
     width: 100%;
 }
-#videoHome{
+#video{
     margin: 50px;
+}
+#videoHome{
+    width: 560px; 
+    height: 360px;
 }
 .contenido{
     margin-top: 0px;
