@@ -10,6 +10,14 @@ hr{
     color: rgb(171,146,74);
     margin: 20px;
 }
+.gameplay{
+    padding-right: 70px;
+    padding-left: 20px;
+    padding-bottom: 50px;
+}
+.listGameplay{
+    font-family: 'Bungee', cursive;
+}
 .apartado{
     margin-top: 100px;
     text-align: left;
@@ -23,12 +31,17 @@ hr{
     margin-left: auto;
     margin-right: auto;
 }
+#parrafoGemas{
+    margin-left: 50px;
+    margin-right: 50px;
+}
 .imgGemas{
     float: left;
 }
 .tablaGemas{
     display: table;
 }
+
 .fila{
     display: table-row;
     border: 10px solid red; 
@@ -90,7 +103,7 @@ td{
 }
 .imgjuego{
     width: 100%;
-    max-width: 500px;
+    max-width: 300px;
     height: auto;
 }
 .imgheroe{
@@ -126,7 +139,7 @@ td{
     max-width: 500px;
 }
 
-.imagenesHome{
+.imagenesCartas, .imagenesHome{
     border: 2px solid rgb(171,146,74); 
     border-radius: 8px;
     margin-top: 50px;
@@ -150,6 +163,14 @@ td{
 .volver:hover{
       background-color: #444;
 }
+
+.parche{
+    text-align: left;
+}
+.nomParche{
+    border-bottom: 2px solid white;
+}
+
 .info{
     text-align: center;
 }
@@ -164,28 +185,28 @@ footer{
     background-color: #003333;
     top: 0px;
     padding-bottom: 20px;
-    
 }
 
 /*navbar*/
 
-ul {
+.navUl {
   list-style-type: none;
+  
   margin: 0;
   padding: 0;
   overflow: hidden;
   background-color: #333;
-  position: -webkit-sticky; /* Safari */
+  position: -webkit-sticky;
   position: sticky;
   top: 0;
   font-family: 'Righteous', cursive;
 }
 
-li {
+.navLi {
   float: left;
 }
 
-li a {
+.navLi a {
   display: block;
   color: white;
   text-align: center;
@@ -193,11 +214,11 @@ li a {
   text-decoration: none;
 }
 
-li a:hover {
+.navLi a:hover {
   background-color: #111;
 }
 
-.active {
+#active {
   background-color: rgb(171,146,74);
 
 }
