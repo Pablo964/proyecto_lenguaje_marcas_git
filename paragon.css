@@ -59,19 +59,21 @@ hr{
 
 header{
     background-color: rgb(171,146,74, .9);
-    padding: 5px;
+    padding: 0px;
     margin-bottom: 0px;
     margin-top: 0px;
     top: 0;
     left: 0;
+    right:0;
     width: 100%;
 }
 #video{
     margin: 50px;
 }
 #videoHome{
-    width: 560px; 
-    height: 360px;
+    max-width: 760px; 
+    max-height: 460px;
+    width: 100%;
 }
 .contenido{
     margin-top: 0px;
@@ -97,18 +99,38 @@ td{
     margin: auto;
 }
 
+.redes{
+    margin: 0 auto;
+    padding-top: 30px;
+    font-family: 'Bungee', cursive;
+    border-spacing: 10px;
+}
+.redes td{
+    display: inline-block;
+}
+
 .imgs{
     margin: auto;
-    border-spacing: 30px;
+    border-spacing: 10px;
+    width: auto;
+}
+.imgs tr td:first-child{
+    font-weight: bold;
+}
+.imgs td{
+    display: inline-block;
+    text-align: center;
+    margin: 25px;
 }
 .imgjuego{
     width: 100%;
     max-width: 300px;
-    height: auto;
 }
 .imgheroe{
-    width:80px;
-    height:80px;
+    max-width:80px;
+    max-height:80px;
+    width: auto;
+    margin: auto;
     border-radius:150px;
 }
 .nombreheroe{
@@ -145,8 +167,9 @@ td{
     margin-top: 50px;
 }
 .videoHeroe{
-   width: 450px; 
+   max-width: 500px; 
    float: right;
+   width: 100%;
 }
 .cont{
     margin: 20px;
@@ -161,7 +184,7 @@ td{
     color: white;
 }
 .volver:hover{
-      background-color: #444;
+    background-color: #444;
 }
 .navbarParches{
     position: fixed;
@@ -174,8 +197,15 @@ td{
     margin: 30px;
     background-color: #003333;
 }
-.listaParches{
-    margin-bottom: 15px;
+.navbarParches a:link{
+    color: white;
+}
+.navbarParches a:visited{
+    color: white;
+}
+.navbarParches a:hover{
+    color: rgb(171,146,74);
+    font-size: 20px;
 }
 .parche{
     text-align: left;
@@ -190,12 +220,6 @@ td{
 
 .info{
     text-align: center;
-}
-.redes{
-    padding-top: 30px;
-    font-family: 'Bungee', cursive;
-    padding-left: 20px;
-    border-spacing: 10px;
 }
 
 footer{
