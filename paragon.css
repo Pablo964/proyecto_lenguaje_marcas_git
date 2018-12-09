@@ -163,12 +163,29 @@ td{
 .volver:hover{
       background-color: #444;
 }
-
+.navbarParches{
+    position: fixed;
+    right: 100px; 
+    top: 25%; 
+    border: 2px solid #cccccc;
+    bottom: 30;
+    width: 25%;
+    text-align: left;
+    margin: 30px;
+    background-color: #003333;
+}
+.listaParches{
+    margin-bottom: 15px;
+}
 .parche{
     text-align: left;
+    padding-top: 30px;
+    padding-left: 30px; 
+    margin-right: 50%;
 }
 .nomParche{
     border-bottom: 2px solid white;
+    margin-right: 50%;
 }
 
 .info{

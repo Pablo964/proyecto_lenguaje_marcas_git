@@ -10,28 +10,33 @@
     </head>
     
     <body background="imagenes\background.jpg">
-            
-        <header>
-             <img class="imagenCabecera" src="imagenes\logo.png" alt="Imagen no disponible">
-        </header>
-        
             <nav>
                 <ul class="navUl">
                     <li class="navLi"><a href="index.html">HOME</a></li>
                     <li class="navLi"><a href="heroes.html">HEROES</a></li>
                     <li class="navLi"><a href="gemas.html">GEMAS</a></li>
-                    <li class="navLi"><a href="cartas.html">GALERIA</a></li>
+                    <li class="navLi"><a href="galeria.html">GALERIA</a></li>
                     <li class="navLi" id="active"><a href="novedades.html">NOVEDADES</a></li>
                 </ul>
             </nav>
 
         <div class="contenido">
             <section class="home">
+                <nav class="navbarParches">
+                    <ol>
+                        <h3>Parches</h3>
+                        <ul>
+                            <li class="listaParches"><a href="#v45">Parche V45</a></li>
+                            <li class="listaParches"><a href="#v43">Parche V43</a></li>
+                            <li class="listaParches"><a href="#v42">Parche V42</a></li>
+                        </ul>
+                    </ol>
+                </nav>
                 <h2>Novedades</h2>
                 <img class="barra" src="imagenes\barra.png" alt="Imagen no disponible">
                 <article class="parche">
                     <div class="nomParche">
-                        <h2>Parche V45</h2>
+                        <h2 id="v45">Parche V45</h2>
                     </div>
                     <time datetime="2019-05-03">5/3/2019</time>
                     <p>
@@ -47,7 +52,7 @@
                 </article>
                 <article class="parche">
                     <div class="nomParche">
-                        <h2>Parche V43</h2>
+                        <h2 id="v43">Parche V43</h2>
                     </div>
                     <time datetime="2018-05-02">5/2/2018</time>
                          
@@ -66,24 +71,39 @@
                         </p>
                         <h3>CARTAS</h3>
                         <ul>
-                            <li>Vial del pastor</li>
-                            <li>Onda de choque</li>
-                            <li>Colas de azote</li>
+                            <li>Armávoro</li>
+                            <li>Manto radiante</li>
                         </ul>
                 </article>
                 
                 <article class="parche">
                     <div class="nomParche">
-                        <h2>Parche V42</h2>
+                        <h2 id="v42">Parche V42</h2>
                     </div>
                     <time datetime="2017-05-02">5/2/2017</time>
                         <h3>HÉROES</h3>
-                        <p>Sevarog [corrección de error]</p>
-                        <p>
-                            Los jugadores que tuvieran equipado el aspecto Sevarog 
-                            máscara mortuoria no podían usar la carta Encantamiento 
-                            de parpadeo pero en esta versión (V.41.1) es corregida
-                        </p>
+                        <ul>
+                            <li>Greystone:</li>
+                            <p>
+                                Se ha añadido el gesto Riff de guitarra de Greystone a la tienda del juego.
+                            </p>
+                            <li>Morigesh</li>
+                            <p>
+                                Se ha incrementado el coste de maná de Marca de 75/85/95/105 a 90/95/100/105.
+                            </p>
+                            <li>Phase</li>
+                            <p>
+                                Se ha reducido el alcance de lanzamiento de Vínculo telequinético de 1900 a 1800.
+                            </p>
+                            <li>Revenant</li>
+                            <p>
+                                Ahora la habilidad Aniquilación requiere línea de visión para fijar un objetivo.
+                            </p>
+                            <p>
+                                Se ha reducido el daño básico de Aniquilación de 120/200/280/360 a 115/190/265/340.
+                            </p>
+                        </ul>
+                        
                         <h3>CARTAS</h3>
                         <ul>
                             <li>Vial del pastor</li>
